@@ -1,1 +1,6 @@
+# 屏蔽ios系统更新
 
+DOMAIN,mesu.apple.com,BlockiosUpdate
+DOMAIN,gdmf.apple.com,BlockiosUpdate
+DOMAIN,updates-http.cdn-apple.com,BlockiosUpdate
+DOMAIN,xp.apple.com,BlockiosUpdate
