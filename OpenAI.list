@@ -19,6 +19,7 @@ DOMAIN,challenges.cloudflare.com
 DOMAIN,api.statsig.com
 DOMAIN,cdn.oaistatic.com
 DOMAIN-SUFFIX,ai.com
+DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,stripe.com
 DOMAIN-SUFFIX,poe.com
