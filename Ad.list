@@ -1,6 +1,5 @@
-# Quantumult X Advertising 极简高质量规则 (B方案)
+# Quantumult X Advertising 极简高质量规则
 # 规则数量: ≈ 3200 条
-# 来源: Centralmatrix3 + blackmatrix7 + ConnersHua + 其他优质源
 # 处理: 严格保留高命中规则，去除低质量随机域名
 # 建议策略: Advertising 或 REJECT
 # 更新: 2026-05-02
@@ -504,7 +503,3 @@ IP-CIDR, 120.198.116.0/24, Advertising
 IP-CIDR, 121.251.255.0/24, Advertising
 IP-CIDR, 123.125.111.0/24, Advertising
 IP-CIDR, 180.76.155.0/24, Advertising
-
-# ==================== 结束 ====================
-# 极简高质量版已结束，建议测试后观察命中率
-# 如需更激进或更宽松版本可随时告诉我
