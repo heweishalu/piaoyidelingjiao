@@ -146,6 +146,7 @@ HOST-KEYWORD, pdd_splash, REJECT
 HOST-KEYWORD, ctrip_splash, REJECT
 
 # ==================== 关键词兜底 ====================
+HOST-KEYWORD, ad.12306.cn, REJECT
 HOST-KEYWORD, splash, REJECT
 HOST-KEYWORD, startup, REJECT
 HOST-KEYWORD, launchad, REJECT
