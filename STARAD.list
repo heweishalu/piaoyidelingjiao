@@ -20,6 +20,79 @@ HOST-SUFFIX, mpush.qq.com, REJECT
 HOST-SUFFIX, ms.vip.qq.com, REJECT
 HOST-SUFFIX, splashscreen.tencent.com, REJECT
 
+# ==================== 拼多多 (Pinduoduo) ====================
+HOST-SUFFIX, pinduoduo.com, REJECT
+HOST-SUFFIX, pdd.net, REJECT
+HOST-SUFFIX, api.pinduoduo.com, REJECT
+HOST-SUFFIX, ads.pinduoduo.com, REJECT
+HOST-SUFFIX, ad.pinduoduo.com, REJECT
+HOST-SUFFIX, promotion.pinduoduo.com, REJECT
+HOST-SUFFIX, oms.pinduoduo.com, REJECT
+HOST-SUFFIX, spl.pdd.net, REJECT
+HOST-SUFFIX, splash.pdd.net, REJECT
+
+# ==================== 闲鱼 (Xianyu / 咸鱼) ====================
+HOST-SUFFIX, xianyu.com, REJECT
+HOST-SUFFIX, taobao.com, REJECT           # 闲鱼基于淘宝
+HOST-SUFFIX, alibaba.com, REJECT
+HOST-SUFFIX, alicdn.com, REJECT
+HOST-SUFFIX, ad.alicdn.com, REJECT
+HOST-SUFFIX, ad.taobao.com, REJECT
+HOST-SUFFIX, atb.m.taobao.com, REJECT
+HOST-SUFFIX, adash.m.taobao.com, REJECT
+HOST-SUFFIX, splashx.taobao.com, REJECT
+
+# ==================== 携程 (Ctrip) ====================
+HOST-SUFFIX, ctrip.com, REJECT
+HOST-SUFFIX, trip.com, REJECT
+HOST-SUFFIX, ctriptravel.com, REJECT
+HOST-SUFFIX, ad.ctrip.com, REJECT
+HOST-SUFFIX, ads.ctrip.com, REJECT
+HOST-SUFFIX, m.ctrip.com, REJECT
+HOST-SUFFIX, dcs.ctrip.com, REJECT
+HOST-SUFFIX, promotion.ctrip.com, REJECT
+HOST-SUFFIX, splash.ctrip.com, REJECT
+
+# ==================== 皮皮虾 (Pipixia) ====================
+HOST-SUFFIX, pipix.com, REJECT
+HOST-SUFFIX, pipixia.com, REJECT
+HOST-SUFFIX, ad.pipix.com, REJECT
+HOST-SUFFIX, api.pipix.com, REJECT
+HOST-SUFFIX, log.pipix.com, REJECT
+HOST-SUFFIX, splash.pipix.com, REJECT
+HOST-SUFFIX, xiaodutv.com, REJECT# Quantumult X 开屏广告 - 京东 (JD.com) 专用
+
+# ==================== 京东核心开屏域名 ====================
+HOST-SUFFIX, jd.com, REJECT
+HOST-SUFFIX, jd.hk, REJECT
+HOST-SUFFIX, 360buy.com, REJECT
+HOST-SUFFIX, jdmall.com, REJECT
+HOST-SUFFIX, m.jd.com, REJECT
+HOST-SUFFIX, api.m.jd.com, REJECT
+HOST-SUFFIX, ad.jd.com, REJECT
+HOST-SUFFIX, ads.jd.com, REJECT
+HOST-SUFFIX, kepler.jd.com, REJECT
+HOST-SUFFIX, mapi.m.jd.com, REJECT
+HOST-SUFFIX, policy.jd.com, REJECT
+HOST-SUFFIX, stat.m.jd.com, REJECT
+HOST-SUFFIX, spl.jd.com, REJECT
+HOST-SUFFIX, splash.jd.com, REJECT
+HOST-SUFFIX, x.jd.com, REJECT
+HOST-SUFFIX, jdcloud.com, REJECT
+HOST-SUFFIX, jcloud.com, REJECT
+
+# ==================== 京东常用追踪与广告域名 ====================
+HOST-SUFFIX, baidu.com, REJECT             # 京东常接百度广告
+HOST-SUFFIX, union.jd.com, REJECT
+HOST-SUFFIX, cps.jd.com, REJECT
+HOST-SUFFIX, img30.jd.com, REJECT
+HOST-SUFFIX, img31.jd.com, REJECT
+HOST-SUFFIX, img12.jd.com, REJECT
+HOST-SUFFIX, storage.360buyimg.com, REJECT
+HOST-SUFFIX, down.jd.com, REJECT
+HOST-SUFFIX, app.jd.com, REJECT
+HOST-SUFFIX, launch.jd.com, REJECT
+
 # ==================== 小米系 ====================
 HOST-SUFFIX, ad.xiaomi.com, REJECT
 HOST-SUFFIX, api.ad.xiaomi.com, REJECT
@@ -63,6 +136,15 @@ HOST-SUFFIX, mgtv.com, REJECT
 HOST-SUFFIX, newapi.com, REJECT
 HOST-SUFFIX, pstatp.com, REJECT
 HOST-SUFFIX, snssdk.com, REJECT
+
+# ==================== 通用开屏兜底 ====================
+HOST-KEYWORD, splash, REJECT
+HOST-KEYWORD, startup, REJECT
+HOST-KEYWORD, launchad, REJECT
+HOST-KEYWORD, openscreen, REJECT
+HOST-KEYWORD, ad.splash, REJECT
+HOST-KEYWORD, pdd_splash, REJECT
+HOST-KEYWORD, ctrip_splash, REJECT
 
 # ==================== 关键词兜底 ====================
 HOST-KEYWORD, splash, REJECT
