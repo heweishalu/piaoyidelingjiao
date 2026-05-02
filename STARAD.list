@@ -12,7 +12,6 @@ HOST-SUFFIX, mon.snssdk.com, REJECT
 
 # ==================== 腾讯系（微信/QQ/腾讯视频等） ====================
 HOST-SUFFIX, gdt.qq.com, REJECT
-HOST-SUFFIX, wxapp.tc.qq.com, REJECT
 HOST-SUFFIX, beacon.qq.com, REJECT
 HOST-SUFFIX, pingma.qq.com, REJECT
 HOST-SUFFIX, report.qq.com, REJECT
