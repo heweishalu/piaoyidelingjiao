@@ -1,3 +1,6 @@
+########################################
+#脚本作者：  @hub.kelee.one
+#######################################
 	DOMAIN-KEYWORD,adstrategy,reject
   DOMAIN-KEYWORD,tnc,direct
   DOMAIN-SUFFIX,capcutapi.com,direct
