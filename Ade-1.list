@@ -1,4 +1,16 @@
 	DOMAIN-KEYWORD,adstrategy,reject
+  DOMAIN-KEYWORD,tnc,direct
+  DOMAIN-SUFFIX,capcutapi.com,direct
+  DOMAIN-SUFFIX,zijieapi.com,direct
+  DOMAIN-SUFFIX,isnssdk.com,direct
+  DOMAIN-SUFFIX,toutiaoapi.com,direct
+  DOMAIN-SUFFIX,bytedance.com,direct
+  DOMAIN-SUFFIX,snssdk.com,direct
+  DOMAIN-SUFFIX,sgsnssdk.com,direct
+  DOMAIN-KEYWORD,-ad-,reject
+  DOMAIN-SUFFIX,byteimg.com,reject
+  DOMAIN-KEYWORD,ads,reject
+  DOMAIN-KEYWORD,-normal.zijieapi.com,reject
 	DOMAIN,if-ad-ies.bytecdn.cn,reject
 	DOMAIN,dig.bdurl.net,reject
 	DOMAIN,extlog.snssdk.com,reject
@@ -168,6 +180,8 @@
 	DOMAIN,adash.man.aliyuncs.com,reject
 	DOMAIN,applog.uc.cn,reject
 	DOMAIN,atoken.m.taobao.com,reject
+  DOMAIN-KEYWORD, adash,reject
+  DOMAIN-SUFFIX, ut.taobao.com,reject
 	DOMAIN,baichuan-sdk.alicdn.com,reject
 	DOMAIN,acs4baichuan.m.taobao.com,reject
 	DOMAIN,api.sm.cn,reject
