@@ -168,7 +168,6 @@
 	DOMAIN,adash.man.aliyuncs.com,reject
 	DOMAIN,applog.uc.cn,reject
 	DOMAIN,atoken.m.taobao.com,reject
-	URL-REGEX,^http:W.+VamdcVmobileDispatch,reject
 	DOMAIN,baichuan-sdk.alicdn.com,reject
 	DOMAIN,acs4baichuan.m.taobao.com,reject
 	DOMAIN,api.sm.cn,reject
