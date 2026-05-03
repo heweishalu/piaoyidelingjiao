@@ -1,7 +1,4 @@
 DOMAIN-KEYWORD,adstrategy,reject
-# AND,((DOMAIN-KEYWORD,tnc),(OR,((DOMAIN-SUFFIX,capcutapi.com),(DOMAIN-SUFFIX,zijieapi.com),(DOMAIN-SUFFIX,isnssdk.com),(DOMAIN-SUFFIX,toutiaoapi.com),(DOMAIN-SUFFIX,bytedance.com),(DOMAIN-SUFFIX,snssdk.com),(DOMAIN-SUFFIX,sgsnssdk.com)))),direct)
-AND,((DOMAIN-KEYWORD,-ad-),(DOMAIN-SUFFIX,byteimg.com)),reject
-AND,((DOMAIN-KEYWORD,ads),(DOMAIN-KEYWORD,-normal.zijieapi.com)),reject
 DOMAIN,if-ad-ies.bytecdn.cn,reject
 DOMAIN,dig.bdurl.net,reject
 DOMAIN,extlog.snssdk.com,reject
