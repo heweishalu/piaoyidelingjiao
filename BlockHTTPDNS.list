@@ -1,4 +1,6 @@
-# NAME: BlockHTTPDNS
+########################################
+#脚本作者：  @hub.kelee.one
+#######################################
 
 HOST,dns.jd.com,BlockHTTPDNS
 HOST,dns.weibo.cn,BlockHTTPDNS
