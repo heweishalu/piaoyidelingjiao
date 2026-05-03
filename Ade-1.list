@@ -310,4 +310,8 @@
 	DOMAIN-SUFFIX,rayjump.com,reject
 	DOMAIN-SUFFIX,rixengine.com,reject
 	DOMAIN-SUFFIX,amazon-adsystem.com,reject
+  DOMAIN-SUFFIX, googlevideo.com,reject
+  PROTOCOL, QUIC,reject
+  DOMAIN-SUFFIX, youtubei.googleapis.com,reject
+  PROTOCOL, QUIC,reject
 	
