@@ -1,3 +1,6 @@
+###########################
+# AD https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rewrite/QuantumultX/AdvertisingLite/AdvertisingLite.list
+###########################
 HOST,api.rr.tv,AdvertisingLite
 HOST,mgesq.api.mgtv.com,AdvertisingLite
 HOST-KEYWORD,112wan,AdvertisingLite
