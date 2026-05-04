@@ -2,6 +2,7 @@
 #脚本作者：  @hub.kelee.one pingtai
 #######################################
 # DOMAIN-SUFFIX,bytedance.com,direct
+# DOMAIN-SUFFIX,byteimg.com,reject
 # DOMAIN-SUFFIX,snssdk.com,direct
 # DOMAIN-SUFFIX,zijieapi.com,direct
 DOMAIN,acjs.aliyun.com,reject
@@ -177,7 +178,6 @@ DOMAIN-SUFFIX,birdgesdk.com,reject
 DOMAIN-SUFFIX,bridgeoos.com,reject
 DOMAIN-SUFFIX,bxsnews.com,reject
 DOMAIN-SUFFIX,byteadverts.com,reject
-DOMAIN-SUFFIX,byteimg.com,reject
 DOMAIN-SUFFIX,capcutapi.com,direct
 DOMAIN-SUFFIX,combocn.com,reject
 DOMAIN-SUFFIX,ctobsnssdk.com,reject
