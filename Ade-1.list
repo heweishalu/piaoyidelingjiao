@@ -1,312 +1,303 @@
 ########################################
 #脚本作者：  @hub.kelee.one pingtai
 #######################################
-	DOMAIN-KEYWORD,adstrategy,reject
-  DOMAIN-KEYWORD,tnc,direct
-  DOMAIN-SUFFIX,capcutapi.com,direct
-  DOMAIN-SUFFIX,zijieapi.com,direct
-  DOMAIN-SUFFIX,isnssdk.com,direct
-  DOMAIN-SUFFIX,toutiaoapi.com,direct
-  DOMAIN-SUFFIX,bytedance.com,direct
-  DOMAIN-SUFFIX,snssdk.com,direct
-  DOMAIN-SUFFIX,sgsnssdk.com,direct
-  DOMAIN-KEYWORD,-ad-,reject
-  DOMAIN-SUFFIX,byteimg.com,reject
-  DOMAIN-KEYWORD,ads,reject
-  DOMAIN-KEYWORD,-normal.zijieapi.com,reject
-	DOMAIN,if-ad-ies.bytecdn.cn,reject
-	DOMAIN,dig.bdurl.net,reject
-	DOMAIN,extlog.snssdk.com,reject
-	DOMAIN,mcs.snssdk.com,reject
-	DOMAIN-SUFFIX,bds.snssdk.com,reject
-	DOMAIN-SUFFIX,byteadverts.com,reject
-	DOMAIN-SUFFIX,ctobsnssdk.com,reject
-	DOMAIN-SUFFIX,pangle.io,reject
-	DOMAIN-KEYWORD,pangolin,reject
-	DOMAIN-KEYWORD,pglstatp,reject
-	DOMAIN-KEYWORD,panplayable-toutiao,reject
-	DOMAIN-KEYWORD,-ad-sign.byteimg.com,reject
-	DOMAIN-KEYWORD,-ad.byteoversea.com,reject
-	DOMAIN-KEYWORD,asiad.byteactivity,reject
-	DOMAIN-KEYWORD,iflyad.bj.openstorage.cn,reject
-	DOMAIN-KEYWORD,bjimp.voiceads.cn,reject
-	DOMAIN-SUFFIX,1rtb.net,reject
-	DOMAIN-SUFFIX,1rtb.com,reject
-	DOMAIN-SUFFIX,halomobi.com,reject
-	DOMAIN-SUFFIX,hubcloud.com.cn,reject
-	DOMAIN-SUFFIX,inmobi.cn,reject
-	DOMAIN-SUFFIX,uyunad.com,reject
-	DOMAIN-SUFFIX,puata.info,reject
-	DOMAIN,gdfp.gifshow.com,reject
-	DOMAIN,open.e.kuaishou.com,reject
-	DOMAIN,open.e.kuaishou.cn,reject
-	DOMAIN,adtrack.e.kuaishou.com,reject
-	DOMAIN-SUFFIX,partner.gifshow.com,reject
-	DOMAIN-SUFFIX,adukwai.com,reject
-	DOMAIN-SUFFIX,adkwai.com,reject
-	DOMAIN-SUFFIX,supersonicads.com,reject
-	DOMAIN-SUFFIX,appsad.cn,reject
-	DOMAIN-SUFFIX,beizi.biz,reject
-	DOMAIN-SUFFIX,ad-scope.com.cn,reject
-	DOMAIN-SUFFIX,adn-plus.com.cn,reject
-	DOMAIN-SUFFIX,adhub.com.cn,reject
-	DOMAIN-SUFFIX,adscope.com.cn,reject
-	DOMAIN-SUFFIX,adscope.cn,reject
-	DOMAIN-SUFFIX,adscope.xyz,reject
-	DOMAIN-SUFFIX,beizi.info,reject
-	DOMAIN-SUFFIX,beizi.online,reject
-	DOMAIN-SUFFIX,miaozhen.com,reject
-	DOMAIN-SUFFIX,admobile.top,reject
-	DOMAIN-SUFFIX,tianmu.mobi,reject
-	DOMAIN-SUFFIX,admobile.mobi,reject
-	DOMAIN-SUFFIX,admobile.net.cn,reject
-	DOMAIN-SUFFIX,popadshop.com,reject
-	DOMAIN-SUFFIX,admobile.vip,reject
-	DOMAIN-SUFFIX,yksdks.com,reject
-	DOMAIN-SUFFIX,dutils.com,reject
-	DOMAIN-SUFFIX,mob.com,reject
-	DOMAIN-SUFFIX,jiguang.cn,reject
-	DOMAIN-SUFFIX,jpush.cn,reject
-	DOMAIN-SUFFIX,jpush.io,reject
-	DOMAIN,afd.baidu.com,reject
-	DOMAIN,als.baidu.com,reject
-	DOMAIN,bgg.baidu.com,reject
-	DOMAIN,cpro.baidustatic.com,reject
-	DOMAIN,feed-image.baidu.com,reject
-	DOMAIN,click-bes.baidu.com,reject
-	DOMAIN,eclick.baidu.com,reject
-	DOMAIN,mobads-logs.baidu.com,reject
-	DOMAIN,mobads-pre-config.cdn.bcebos.com,reject
-	DOMAIN,mobads.baidu.com,reject
-	DOMAIN,nadvideo2.baidu.com,reject
-	DOMAIN,wn.pos.baidu.com,reject
-	DOMAIN,miniapp-ad.cdn.bcebos.com,reject
-	DOMAIN-SUFFIX,union.baidu.cn,reject
-	DOMAIN-SUFFIX,union.baidu.com,reject
-	DOMAIN,adsmind.gdtimg.com,reject
-	DOMAIN,adsmind.ugdtimg.com,reject
-	DOMAIN,ads.privacy.qq.com,reject
-	DOMAIN,huatuocode.huatuo.qq.com,reject
-	DOMAIN,info4.video.qq.com,reject
-	DOMAIN,info6.video.qq.com,reject
-	DOMAIN,ios.bugly.qq.com,reject
-	DOMAIN,pro.bugly.qq.com,reject
-	DOMAIN,ios.video.mpush.qq.com,reject
-	DOMAIN,otheve.beacon.qg.com,reject
-	DOMAIN,pgdt.gtimg.cn,reject
-	DOMAIN,pgdt.ugdtimg.com,reject
-	DOMAIN,qzs.gdtimg.com,reject
-	DOMAIN,gzs.gg.com,reject
-	DOMAIN,rmonitor.gg.com,reject
-	DOMAIN,sdkconfig.video.qq.com,reject
-	DOMAIN,tmead.y.qq.com,reject
-	DOMAIN,tmeadbak.y.qq.com,reject
-	DOMAIN,tmeadcomm.y.qq.com,reject
-	DOMAIN,tpns.qq.com,reject
-	DOMAIN,wup.imtt.qq.com,reject
-	DOMAIN,tpstelemetry.tencent.com,reject
-	DOMAIN,otheve.beacon.gq.com,reject
-	DOMAIN,stat.y.qq.com,reject
-	DOMAIN,stat6.y.qq.com,reject
-	DOMAIN,oth.str.mdt.qq.com,reject
-	DOMAIN,h.trace.qq.com,reject
-	DOMAIN,sdk.e.qq.com,reject
-	DOMAIN,tangram.e.gg.com,reject
-	DOMAIN-KEYWORD,trace.qq.com,reject
-	DOMAIN-KEYWORD,trace.video.qq.com,reject
-	DOMAIN-KEYWORD,ad.hunyuan.tencent.com,reject
-	DOMAIN-SUFFIX,gdt.qq.com,reject
-	DOMAIN-SUFFIX,I.qq.com,reject
-	DOMAIN-SUFFIX,imtmp.net,reject
-	DOMAIN-SUFFIX,ugdtimg.com,reject
-	IP-CIDR,47.110.187.87/32,reject
-	DOMAIN-SUFFIX,opadlink.com,reject
-	DOMAIN-SUFFIX,staevent.work,reject
-	DOMAIN-SUFFIX,openinstall.online,reject
-	DOMAIN-SUFFIX,statchannel.store,reject
-	DOMAIN-SUFFIX,oplinking.com,reject
-	DOMAIN-SUFFIX,deepinstall.com,reject
-	DOMAIN-SUFFIX,openinstall.com,reject
-	DOMAIN-SUFFIX,installtongji.top,reject
-	DOMAIN-SUFFIX,openlink.cc,reject
-	DOMAIN-SUFFIX,opstatistics.com,reject
-	DOMAIN-SUFFIX,installtongji.online,reject
-	DOMAIN-SUFFIX,statschannel.xyz,reject
-	DOMAIN-SUFFIX,staevent.xyz,reject
-	DOMAIN-SUFFIX,opstatistics.cn,reject
-	DOMAIN-SUFFIX,openinstall.top,reject
-	DOMAIN-SUFFIX,openinstall.io,reject
-	DOMAIN-SUFFIX,statsinstall.xyz,reject
-	DOMAIN-SUFFIX,statchannel.top,reject
-	DOMAIN-SUFFIX,getui.com,reject
-	DOMAIN-SUFFIX,getui.net,reject
-	DOMAIN-SUFFIX,igexin.com,reject
-	DOMAIN-SUFFIX,umtrack.com,reject
-	DOMAIN-SUFFIX,umeng.com,reject
-	DOMAIN-SUFFIX,umsns.com,reject
-	DOMAIN-SUFFIX,lydass.net,reject
-	DOMAIN-SUFFIX,lydass.com.cn,reject
-	DOMAIN-SUFFIX,ydaas.net,reject
-	DOMAIN-SUFFIX,lydass.cn,reject
-	DOMAIN-SUFFIX,fwosapp.com,reject
-	DOMAIN-SUFFIX,rhinokeen.com,reject
-	DOMAIN-SUFFIX,lydaas.com,reject
-	DOMAIN-SUFFIX,xixikf.com,reject
-	DOMAIN-SUFFIX,wrating.com,reject
-	DOMAIN-SUFFIX,puata.info,reject
-	DOMAIN-SUFFIX,mobmore.com,reject
-	DOMAIN-SUFFIX,um0.cn,reject
-	DOMAIN-SUFFIX,umv0.com,reject
-	DOMAIN-SUFFIX,umtrack1.com,reject
-	DOMAIN-SUFFIX,eshiqi.com,reject
-	DOMAIN-SUFFIX,umv5.com,reject
-	DOMAIN-SUFFIX,dratio.com,reject
-	DOMAIN-SUFFIX,umtrack0.com,reject
-	DOMAIN-SUFFIX,uyunad.com,reject
-	DOMAIN-SUFFIX,whalecloud.com,reject
-	DOMAIN-SUFFIX,umtrack2.com,reject
-	DOMAIN-SUFFIX,umengcloud.com,reject
-	DOMAIN-SUFFIX,umeng.com,reject
-	DOMAIN-SUFFIX,umtrack.com,reject
-	DOMAIN-SUFFIX,um1.cn,reject
-	DOMAIN-SUFFIX,umsns.com,reject
-	DOMAIN-SUFFIX,adfunlink.com,reject
-	DOMAIN-SUFFIX,tianmu.mobi,reject
-	DOMAIN-SUFFIX,ubixioe.com,reject
-	DOMAIN,ossgw.alicdn.com,reject
-	DOMAIN,ems.youku.com,reject
-	DOMAIN,hudong.alicdn.com,reject
-	DOMAIN,et.tanx.com,reject
-	DOMAIN,df.tanx.com,reject
-	DOMAIN,opehs.tanx.com,reject
-	DOMAIN,beacon-api.aliyuncs.com,reject
-	DOMAIN,adash.man.aliyuncs.com,reject
-	DOMAIN,applog.uc.cn,reject
-	DOMAIN,atoken.m.taobao.com,reject
-  DOMAIN-KEYWORD, adash,reject
-  DOMAIN-SUFFIX, ut.taobao.com,reject
-	DOMAIN,baichuan-sdk.alicdn.com,reject
-	DOMAIN,acs4baichuan.m.taobao.com,reject
-	DOMAIN,api.sm.cn,reject
-	DOMAIN,cC.sm.cn,reject
-	DOMAIN,content-understand-strategy.sm.cn,reject
-	DOMAIN,hc-ssp.sm.cn,reject
-	DOMAIN,sdk-log.partner.sm.cn,reject
-	DOMAIN,partner.uc.cn,reject
-	DOMAIN,cpc-service-square.aiclk.com,reject
-	DOMAIN,logrcv.aiclk.com,reject
-	DOMAIN,acjs.aliyun.com,reject
-	DOMAIN,retcode.alicdn.com,reject
-	DOMAIN,arms-retcode.aliyuncs.com,reject
-	DOMAIN,huichuan.sm.cn,reject
-	DOMAIN,huichuan-mc.sm.cn,reject
-	DOMAIN,api.sm.cn,reject
-	DOMAIN,nex.163.com,reject
-	DOMAIN,iad.g.163.com,reject
-	DOMAIN,gorgon.youdao.com,reject
-	DOMAIN-SUFFIX,ad.xiaomi.com,reject
-	DOMAIN,al-log.d.meituan.net,reject
-	DOMAIN,babel-statistics-android.d.meituan.net,reject
-	DOMAIN,maplocatesdksnapshot.d.meituan.net,reject
-	DOMAIN,metrics-picture.d.meituan.net,reject
-	DOMAIN,route-stats.d.meituan.net,reject
-	DOMAIN,dsp-x.jd.com,reject
-	DOMAIN,im-x.jd.com,reject
-	DOMAIN,xlog.jd.com,reject
-	DOMAIN,janapi.jd.com,reject
-	DOMAIN-SUFFIX,toponadss.com,reject
-	DOMAIN-SUFFIX,motowoo.com,reject
-	DOMAIN,guide2.bianxianmao.com,reject
-	DOMAIN,sdk.zhangyuyidong.cn,reject
-	DOMAIN,sdklog.zhangyuyidong.cn,reject
-	DOMAIN-SUFFIX,adintl.cn,reject
-	DOMAIN-SUFFIX,adtaipo.com,reject
-	DOMAIN-SUFFIX,adx.yixin.im,reject
-	DOMAIN-SUFFIX,kuaiyiad.com,reject
-	DOMAIN-SUFFIX,adtianmai.com,reject
-	DOMAIN-SUFFIX,readgps.com,reject
-	DOMAIN-SUFFIX,fanglinad.com,reject
-	DOMAIN-SUFFIX,17admob.com,reject
-	DOMAIN-SUFFIX,slyxmobi.com,reject
-	DOMAIN-SUFFIX,mobrtb.com,reject
-	DOMAIN-SUFFIX,maplehaze.cn,reject
-	DOMAIN-SUFFIX,Ink0.com,reject
-	DOMAIN-SUFFIX,bridgeoos.com,reject
-	DOMAIN-SUFFIX,anythinktech.com,reject
-	DOMAIN-SUFFIX,birdgesdk.com,reject
-	DOMAIN-SUFFIX,combocn.com,reject
-	DOMAIN-SUFFIX,beanxin.com,reject
-	DOMAIN-SUFFIX,letway.cn,reject
-	DOMAIN-SUFFIX,newitai.com,reject
-	DOMAIN-SUFFIX,fireluck.cn,reject
-	DOMAIN-SUFFIX,setway.cn,reject
-	DOMAIN-SUFFIX,artcto.com,reject
-	DOMAIN-SUFFIX,wayio.cn,reject
-	DOMAIN-SUFFIX,iaddata.com,reject
-	DOMAIN,ad-evods.tianya.tv,reject
-	DOMAIN-SUFFIX,tuia.cn,reject
-	DOMAIN-SUFFIX,66mobi.com,reject
-	DOMAIN-SUFFIX,xdplt.com,reject
-	DOMAIN,ads.cup.com.cn,reject
-	DOMAIN-SUFFIX,adjust.com,reject
-	DOMAIN-SUFFIX,adjust.net.in,reject
-	DOMAIN,app-analytics-services.com,reject
-	DOMAIN,odm.app-ads-services.com,reject
-	DOMAIN,firebaselogging-pa.googleapis.com,reject
-	DOMAIN,firebaseinappmessaging.googleapis.com,reject
-	DOMAIN,fundingchoicesmessages.google.com,reject
-	DOMAIN-SUFFIX,doubleclick.net,reject
-	DOMAIN-SUFFIX,doubleclick-cn.net,reject
-	DOMAIN-SUFFIX,googlesyndication-cn.com,reject
-	DOMAIN-SUFFIX,xinduoad.com,reject
-	DOMAIN-SUFFIX,kuaiyiad.com,reject
-	DOMAIN,statis.miwuad.com,reject
-	DOMAIN-SUFFIX,sigmob.cn,reject
-	DOMAIN-SUFFIX,richmob.cn,reject
-	DOMAIN-SUFFIX,66mobi.com,reject
-	DOMAIN,ad.shunchangzhixing.com,reject
-	DOMAIN,redirect.shunchangzhixing.com,reject
-	DOMAIN,api.touch-moblie.com,reject
-	DOMAIN-SUFFIX,mercury-gateway.ixiaochuan.cn,reject
-	DOMAIN,adapi.izuiyou.com,reject
-	DOMAIN-SUFFIX,domob.cn,reject
-	DOMAIN-SUFFIX,adwangmai.com,reject
-	DOMAIN-SUFFIX,bxsnews.com,reject
-	DOMAIN-SUFFIX,ranfenghd.com,reject
-	DOMAIN-SUFFIX,miaozhen.com,reject
-	DOMAIN-SUFFIX,qchannel01.cn,reject
-	DOMAIN-SUFFIX,ad.xelements.cn,reject
-	DOMAIN-SUFFIX,adsrvr.cn,reject
-	DOMAIN-SUFFIX,adsrvr.org,reject
-	DOMAIN-SUFFIX,fancydsp.com,reject
-	DOMAIN-SUFFIX,xcultur.com,reject
-	DOMAIN-SUFFIX,bayescom.com,reject
-	DOMAIN-SUFFIX,etoolads.cn,reject
-	DOMAIN,ad.aggrxinc.com,reject
-	DOMAIN-SUFFIX,mentamob.com,reject
-	DOMAIN-SUFFIX,advlion.com,reject
-	DOMAIN-SUFFIX,shanghailingye.cn,reject
-	DOMAIN-SUFFIX,shenshiads.com,reject
-	DOMAIN-SUFFIX,adshenshi.com,reject
-	DOMAIN-SUFFIX,qidianad.com,reject
-	DOMAIN-SUFFIX,kuaichuanad.com,reject
-	DOMAIN-SUFFIX,tradplusad.com,reject
-	DOMAIN-SUFFIX,fancyapi.com,reject
-	DOMAIN-SUFFIX,medproad.com,reject
-	DOMAIN-SUFFIX,applovin.com,reject
-	DOMAIN-SUFFIX,iads.unity3d.com,reject
-	DOMAIN-SUFFIX,unityads.unitychina.cn,reject
-	DOMAIN-SUFFIX,tapjoy.com,reject
-	DOMAIN-SUFFIX,ads.vungle.com,reject
-	DOMAIN-SUFFIX,adsmoloco.com,reject
-	DOMAIN-SUFFIX,smadex.com,reject
-	DOMAIN-SUFFIX,tapad.com,reject
-	DOMAIN-SUFFIX,adsappier.com,reject
-	DOMAIN-SUFFIX,inmobi.com,reject
-	DOMAIN-SUFFIX,inmobicdn.net,reject
-	DOMAIN-SUFFIX,appsflyersdk.com,reject
-	DOMAIN-SUFFIX,applvn.com,reject
-	DOMAIN-SUFFIX,moloco.com,reject
-	DOMAIN-SUFFIX,rayjump.com,reject
-	DOMAIN-SUFFIX,rixengine.com,reject
-	DOMAIN-SUFFIX,amazon-adsystem.com,reject
+
+# DOMAIN-SUFFIX,snssdk.com,direct
+DOMAIN,acjs.aliyun.com,reject
+DOMAIN,acs4baichuan.m.taobao.com,reject
+DOMAIN,ad-evods.tianya.tv,reject
+DOMAIN,ad.aggrxinc.com,reject
+DOMAIN,ad.shunchangzhixing.com,reject
+DOMAIN,adapi.izuiyou.com,reject
+DOMAIN,adash.man.aliyuncs.com,reject
+DOMAIN,ads.cup.com.cn,reject
+DOMAIN,ads.privacy.qq.com,reject
+DOMAIN,adsmind.gdtimg.com,reject
+DOMAIN,adsmind.ugdtimg.com,reject
+DOMAIN,adtrack.e.kuaishou.com,reject
+DOMAIN,afd.baidu.com,reject
+DOMAIN,al-log.d.meituan.net,reject
+DOMAIN,als.baidu.com,reject
+DOMAIN,api.sm.cn,reject
+DOMAIN,api.touch-moblie.com,reject
+DOMAIN,app-analytics-services.com,reject
+DOMAIN,applog.uc.cn,reject
+DOMAIN,arms-retcode.aliyuncs.com,reject
+DOMAIN,atoken.m.taobao.com,reject
+DOMAIN,babel-statistics-android.d.meituan.net,reject
+DOMAIN,baichuan-sdk.alicdn.com,reject
+DOMAIN,beacon-api.aliyuncs.com,reject
+DOMAIN,bgg.baidu.com,reject
+DOMAIN,cC.sm.cn,reject
+DOMAIN,click-bes.baidu.com,reject
+DOMAIN,content-understand-strategy.sm.cn,reject
+DOMAIN,cpc-service-square.aiclk.com,reject
+DOMAIN,cpro.baidustatic.com,reject
+DOMAIN,df.tanx.com,reject
+DOMAIN,dig.bdurl.net,reject
+DOMAIN,dsp-x.jd.com,reject
+DOMAIN,eclick.baidu.com,reject
+DOMAIN,ems.youku.com,reject
+DOMAIN,et.tanx.com,reject
+DOMAIN,extlog.snssdk.com,reject
+DOMAIN,feed-image.baidu.com,reject
+DOMAIN,firebaseinappmessaging.googleapis.com,reject
+DOMAIN,firebaselogging-pa.googleapis.com,reject
+DOMAIN,fundingchoicesmessages.google.com,reject
+DOMAIN,gdfp.gifshow.com,reject
+DOMAIN,gorgon.youdao.com,reject
+DOMAIN,guide2.bianxianmao.com,reject
+DOMAIN,gzs.gg.com,reject
+DOMAIN,h.trace.qq.com,reject
+DOMAIN,hc-ssp.sm.cn,reject
+DOMAIN,huatuocode.huatuo.qq.com,reject
+DOMAIN,hudong.alicdn.com,reject
+DOMAIN,huichuan-mc.sm.cn,reject
+DOMAIN,huichuan.sm.cn,reject
+DOMAIN,iad.g.163.com,reject
+DOMAIN,if-ad-ies.bytecdn.cn,reject
+DOMAIN,im-x.jd.com,reject
+DOMAIN,info4.video.qq.com,reject
+DOMAIN,info6.video.qq.com,reject
+DOMAIN,ios.bugly.qq.com,reject
+DOMAIN,ios.video.mpush.qq.com,reject
+DOMAIN,janapi.jd.com,reject
+DOMAIN,logrcv.aiclk.com,reject
+DOMAIN,maplocatesdksnapshot.d.meituan.net,reject
+DOMAIN,mcs.snssdk.com,reject
+DOMAIN,metrics-picture.d.meituan.net,reject
+DOMAIN,miniapp-ad.cdn.bcebos.com,reject
+DOMAIN,mobads-logs.baidu.com,reject
+DOMAIN,mobads-pre-config.cdn.bcebos.com,reject
+DOMAIN,mobads.baidu.com,reject
+DOMAIN,nadvideo2.baidu.com,reject
+DOMAIN,nex.163.com,reject
+DOMAIN,odm.app-ads-services.com,reject
+DOMAIN,opehs.tanx.com,reject
+DOMAIN,open.e.kuaishou.cn,reject
+DOMAIN,open.e.kuaishou.com,reject
+DOMAIN,ossgw.alicdn.com,reject
+DOMAIN,oth.str.mdt.qq.com,reject
+DOMAIN,otheve.beacon.gq.com,reject
+DOMAIN,otheve.beacon.qg.com,reject
+DOMAIN,partner.uc.cn,reject
+DOMAIN,pgdt.gtimg.cn,reject
+DOMAIN,pgdt.ugdtimg.com,reject
+DOMAIN,pro.bugly.qq.com,reject
+DOMAIN,qzs.gdtimg.com,reject
+DOMAIN,redirect.shunchangzhixing.com,reject
+DOMAIN,retcode.alicdn.com,reject
+DOMAIN,rmonitor.gg.com,reject
+DOMAIN,route-stats.d.meituan.net,reject
+DOMAIN,sdk-log.partner.sm.cn,reject
+DOMAIN,sdk.e.qq.com,reject
+DOMAIN,sdk.zhangyuyidong.cn,reject
+DOMAIN,sdkconfig.video.qq.com,reject
+DOMAIN,sdklog.zhangyuyidong.cn,reject
+DOMAIN,stat.y.qq.com,reject
+DOMAIN,stat6.y.qq.com,reject
+DOMAIN,statis.miwuad.com,reject
+DOMAIN,tangram.e.gg.com,reject
+DOMAIN,tmead.y.qq.com,reject
+DOMAIN,tmeadbak.y.qq.com,reject
+DOMAIN,tmeadcomm.y.qq.com,reject
+DOMAIN,tpns.qq.com,reject
+DOMAIN,tpstelemetry.tencent.com,reject
+DOMAIN,wn.pos.baidu.com,reject
+DOMAIN,wup.imtt.qq.com,reject
+DOMAIN,xlog.jd.com,reject
+DOMAIN-KEYWORD, adash,reject
+DOMAIN-KEYWORD,-ad-,reject
+DOMAIN-KEYWORD,-ad-sign.byteimg.com,reject
+DOMAIN-KEYWORD,-ad.byteoversea.com,reject
+DOMAIN-KEYWORD,-normal.zijieapi.com,reject
+DOMAIN-KEYWORD,ad.hunyuan.tencent.com,reject
+DOMAIN-KEYWORD,ads,reject
+DOMAIN-KEYWORD,adstrategy,reject
+DOMAIN-KEYWORD,asiad.byteactivity,reject
+DOMAIN-KEYWORD,bjimp.voiceads.cn,reject
+DOMAIN-KEYWORD,iflyad.bj.openstorage.cn,reject
+DOMAIN-KEYWORD,pangolin,reject
+DOMAIN-KEYWORD,panplayable-toutiao,reject
+DOMAIN-KEYWORD,pglstatp,reject
+DOMAIN-KEYWORD,tnc,direct
+DOMAIN-KEYWORD,trace.qq.com,reject
+DOMAIN-KEYWORD,trace.video.qq.com,reject
+DOMAIN-SUFFIX, ut.taobao.com,reject
+DOMAIN-SUFFIX,17admob.com,reject
+DOMAIN-SUFFIX,1rtb.com,reject
+DOMAIN-SUFFIX,1rtb.net,reject
+DOMAIN-SUFFIX,66mobi.com,reject
+DOMAIN-SUFFIX,I.qq.com,reject
+DOMAIN-SUFFIX,Ink0.com,reject
+DOMAIN-SUFFIX,ad-scope.com.cn,reject
+DOMAIN-SUFFIX,ad.xelements.cn,reject
+DOMAIN-SUFFIX,ad.xiaomi.com,reject
+DOMAIN-SUFFIX,adfunlink.com,reject
+DOMAIN-SUFFIX,adhub.com.cn,reject
+DOMAIN-SUFFIX,adintl.cn,reject
+DOMAIN-SUFFIX,adjust.com,reject
+DOMAIN-SUFFIX,adjust.net.in,reject
+DOMAIN-SUFFIX,adkwai.com,reject
+DOMAIN-SUFFIX,admobile.mobi,reject
+DOMAIN-SUFFIX,admobile.net.cn,reject
+DOMAIN-SUFFIX,admobile.top,reject
+DOMAIN-SUFFIX,admobile.vip,reject
+DOMAIN-SUFFIX,adn-plus.com.cn,reject
+DOMAIN-SUFFIX,ads.vungle.com,reject
+DOMAIN-SUFFIX,adsappier.com,reject
+DOMAIN-SUFFIX,adscope.cn,reject
+DOMAIN-SUFFIX,adscope.com.cn,reject
+DOMAIN-SUFFIX,adscope.xyz,reject
+DOMAIN-SUFFIX,adshenshi.com,reject
+DOMAIN-SUFFIX,adsmoloco.com,reject
+DOMAIN-SUFFIX,adsrvr.cn,reject
+DOMAIN-SUFFIX,adsrvr.org,reject
+DOMAIN-SUFFIX,adtaipo.com,reject
+DOMAIN-SUFFIX,adtianmai.com,reject
+DOMAIN-SUFFIX,adukwai.com,reject
+DOMAIN-SUFFIX,advlion.com,reject
+DOMAIN-SUFFIX,adwangmai.com,reject
+DOMAIN-SUFFIX,adx.yixin.im,reject
+DOMAIN-SUFFIX,amazon-adsystem.com,reject
+DOMAIN-SUFFIX,anythinktech.com,reject
+DOMAIN-SUFFIX,applovin.com,reject
+DOMAIN-SUFFIX,applvn.com,reject
+DOMAIN-SUFFIX,appsad.cn,reject
+DOMAIN-SUFFIX,appsflyersdk.com,reject
+DOMAIN-SUFFIX,artcto.com,reject
+DOMAIN-SUFFIX,bayescom.com,reject
+DOMAIN-SUFFIX,bds.snssdk.com,reject
+DOMAIN-SUFFIX,beanxin.com,reject
+DOMAIN-SUFFIX,beizi.biz,reject
+DOMAIN-SUFFIX,beizi.info,reject
+DOMAIN-SUFFIX,beizi.online,reject
+DOMAIN-SUFFIX,birdgesdk.com,reject
+DOMAIN-SUFFIX,bridgeoos.com,reject
+DOMAIN-SUFFIX,bxsnews.com,reject
+DOMAIN-SUFFIX,byteadverts.com,reject
+DOMAIN-SUFFIX,bytedance.com,direct
+DOMAIN-SUFFIX,byteimg.com,reject
+DOMAIN-SUFFIX,capcutapi.com,direct
+DOMAIN-SUFFIX,combocn.com,reject
+DOMAIN-SUFFIX,ctobsnssdk.com,reject
+DOMAIN-SUFFIX,deepinstall.com,reject
+DOMAIN-SUFFIX,domob.cn,reject
+DOMAIN-SUFFIX,doubleclick-cn.net,reject
+DOMAIN-SUFFIX,doubleclick.net,reject
+DOMAIN-SUFFIX,dratio.com,reject
+DOMAIN-SUFFIX,dutils.com,reject
+DOMAIN-SUFFIX,eshiqi.com,reject
+DOMAIN-SUFFIX,etoolads.cn,reject
+DOMAIN-SUFFIX,fancyapi.com,reject
+DOMAIN-SUFFIX,fancydsp.com,reject
+DOMAIN-SUFFIX,fanglinad.com,reject
+DOMAIN-SUFFIX,fireluck.cn,reject
+DOMAIN-SUFFIX,fwosapp.com,reject
+DOMAIN-SUFFIX,gdt.qq.com,reject
+DOMAIN-SUFFIX,getui.com,reject
+DOMAIN-SUFFIX,getui.net,reject
+DOMAIN-SUFFIX,googlesyndication-cn.com,reject
+DOMAIN-SUFFIX,halomobi.com,reject
+DOMAIN-SUFFIX,hubcloud.com.cn,reject
+DOMAIN-SUFFIX,iaddata.com,reject
+DOMAIN-SUFFIX,iads.unity3d.com,reject
+DOMAIN-SUFFIX,igexin.com,reject
+DOMAIN-SUFFIX,imtmp.net,reject
+DOMAIN-SUFFIX,inmobi.cn,reject
+DOMAIN-SUFFIX,inmobi.com,reject
+DOMAIN-SUFFIX,inmobicdn.net,reject
+DOMAIN-SUFFIX,installtongji.online,reject
+DOMAIN-SUFFIX,installtongji.top,reject
+DOMAIN-SUFFIX,isnssdk.com,direct
+DOMAIN-SUFFIX,jiguang.cn,reject
+DOMAIN-SUFFIX,jpush.cn,reject
+DOMAIN-SUFFIX,jpush.io,reject
+DOMAIN-SUFFIX,kuaichuanad.com,reject
+DOMAIN-SUFFIX,kuaiyiad.com,reject
+DOMAIN-SUFFIX,letway.cn,reject
+DOMAIN-SUFFIX,lydaas.com,reject
+DOMAIN-SUFFIX,lydass.cn,reject
+DOMAIN-SUFFIX,lydass.com.cn,reject
+DOMAIN-SUFFIX,lydass.net,reject
+DOMAIN-SUFFIX,maplehaze.cn,reject
+DOMAIN-SUFFIX,medproad.com,reject
+DOMAIN-SUFFIX,mentamob.com,reject
+DOMAIN-SUFFIX,mercury-gateway.ixiaochuan.cn,reject
+DOMAIN-SUFFIX,miaozhen.com,reject
+DOMAIN-SUFFIX,mob.com,reject
+DOMAIN-SUFFIX,mobmore.com,reject
+DOMAIN-SUFFIX,mobrtb.com,reject
+DOMAIN-SUFFIX,moloco.com,reject
+DOMAIN-SUFFIX,motowoo.com,reject
+DOMAIN-SUFFIX,newitai.com,reject
+DOMAIN-SUFFIX,opadlink.com,reject
+DOMAIN-SUFFIX,openinstall.com,reject
+DOMAIN-SUFFIX,openinstall.io,reject
+DOMAIN-SUFFIX,openinstall.online,reject
+DOMAIN-SUFFIX,openinstall.top,reject
+DOMAIN-SUFFIX,openlink.cc,reject
+DOMAIN-SUFFIX,oplinking.com,reject
+DOMAIN-SUFFIX,opstatistics.cn,reject
+DOMAIN-SUFFIX,opstatistics.com,reject
+DOMAIN-SUFFIX,pangle.io,reject
+DOMAIN-SUFFIX,partner.gifshow.com,reject
+DOMAIN-SUFFIX,popadshop.com,reject
+DOMAIN-SUFFIX,puata.info,reject
+DOMAIN-SUFFIX,qchannel01.cn,reject
+DOMAIN-SUFFIX,qidianad.com,reject
+DOMAIN-SUFFIX,ranfenghd.com,reject
+DOMAIN-SUFFIX,rayjump.com,reject
+DOMAIN-SUFFIX,readgps.com,reject
+DOMAIN-SUFFIX,rhinokeen.com,reject
+DOMAIN-SUFFIX,richmob.cn,reject
+DOMAIN-SUFFIX,rixengine.com,reject
+DOMAIN-SUFFIX,setway.cn,reject
+DOMAIN-SUFFIX,sgsnssdk.com,direct
+DOMAIN-SUFFIX,shanghailingye.cn,reject
+DOMAIN-SUFFIX,shenshiads.com,reject
+DOMAIN-SUFFIX,sigmob.cn,reject
+DOMAIN-SUFFIX,slyxmobi.com,reject
+DOMAIN-SUFFIX,smadex.com,reject
+DOMAIN-SUFFIX,staevent.work,reject
+DOMAIN-SUFFIX,staevent.xyz,reject
+DOMAIN-SUFFIX,statchannel.store,reject
+DOMAIN-SUFFIX,statchannel.top,reject
+DOMAIN-SUFFIX,statschannel.xyz,reject
+DOMAIN-SUFFIX,statsinstall.xyz,reject
+DOMAIN-SUFFIX,supersonicads.com,reject
+DOMAIN-SUFFIX,tapad.com,reject
+DOMAIN-SUFFIX,tapjoy.com,reject
+DOMAIN-SUFFIX,tianmu.mobi,reject
+DOMAIN-SUFFIX,toponadss.com,reject
+DOMAIN-SUFFIX,toutiaoapi.com,direct
+DOMAIN-SUFFIX,tradplusad.com,reject
+DOMAIN-SUFFIX,tuia.cn,reject
+DOMAIN-SUFFIX,ubixioe.com,reject
+DOMAIN-SUFFIX,ugdtimg.com,reject
+DOMAIN-SUFFIX,um0.cn,reject
+DOMAIN-SUFFIX,um1.cn,reject
+DOMAIN-SUFFIX,umeng.com,reject
+DOMAIN-SUFFIX,umengcloud.com,reject
+DOMAIN-SUFFIX,umsns.com,reject
+DOMAIN-SUFFIX,umtrack.com,reject
+DOMAIN-SUFFIX,umtrack0.com,reject
+DOMAIN-SUFFIX,umtrack1.com,reject
+DOMAIN-SUFFIX,umtrack2.com,reject
+DOMAIN-SUFFIX,umv0.com,reject
+DOMAIN-SUFFIX,umv5.com,reject
+DOMAIN-SUFFIX,union.baidu.cn,reject
+DOMAIN-SUFFIX,union.baidu.com,reject
+DOMAIN-SUFFIX,unityads.unitychina.cn,reject
+DOMAIN-SUFFIX,uyunad.com,reject
+DOMAIN-SUFFIX,wayio.cn,reject
+DOMAIN-SUFFIX,whalecloud.com,reject
+DOMAIN-SUFFIX,wrating.com,reject
+DOMAIN-SUFFIX,xcultur.com,reject
+DOMAIN-SUFFIX,xdplt.com,reject
+DOMAIN-SUFFIX,xinduoad.com,reject
+DOMAIN-SUFFIX,xixikf.com,reject
+DOMAIN-SUFFIX,ydaas.net,reject
+DOMAIN-SUFFIX,yksdks.com,reject
+DOMAIN-SUFFIX,zijieapi.com,direct
+IP-CIDR,47.110.187.87/32,reject
