@@ -7,16 +7,11 @@ USER-AGENT,httpdns*,reject
 USER-AGENT,httpsdns*,reject
 USER-AGENT,Httpdns*,reject
 USER-AGENT,Httpsdns",reject
-URL-REGEX,^http:\/\/((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)(?:\/v?[0-9]+)?\/(?:sign_)?(?:(?:d|ss)[46]?|resolve)\?,reject
-URL-REGEX,^http:\/\/\[[0-9a-fA-F:]+\](?:\/v?[0-9]+)?\/(?:sign_)?(?:(?:d|ss)[46]?|resolve)\?,reject
 DOMAIN,yyapp-httpdns.gslb.yy.com,reject
 DOMAIN,union-httpdns.gslb.yy.com,reject
 DOMAIN,yuyin-httpdns.gslb.yy.com,reject
 DOMAIN,httpdns-v6.gslb.yy.com,reject
-URL-REGEX,^http:W1031.441.58).64Vmd\?,reject
-URL-REGEX,^http:\/\/cdn\.wup\.huya\.com\/launch\/queryHttpDns,reject
 DOMAIN,dns2.g2cdn.com,reject
-URL-REGEX,^http:\/\/xmc\.ximalaya\.com\/xmlymain-login-web\/login\/,reject
 DOMAIN,dns.weixin.qq.com,reject
 DOMAIN,dns.weixin.qq.com.cn,reject
 DOMAIN,aedns.weixin.qq.com,reject
@@ -111,7 +106,6 @@ DOMAIN,apidns-js.kwd.inkuai.com,reject
 DOMAIN,httpdns.meituan.com,reject
 DOMAIN,httpdnsmultiapi.meituan.com,reject
 DOMAIN,httpdnsmultiapivip.meituan.com,reject
-URL-REGEX,^http:W103|.37.155|.60Vfetch,reject
 DOMAIN,httpdns.music.163.com,reject
 DOMAIN,httpdns.n.netease.com,reject
 DOMAIN,httpdns-sdk.n.netease.com,reject
@@ -124,8 +118,6 @@ IP-CIDR,59.111.239.62/32,reject
 DOMAIN,twns.p2ptun.qq.com,reject
 DOMAIN,tp2p.kg.qq.com,reject
 IP-CIDR,81.71.61.216/32,reject
-URL-REGEX,^http:\/\/((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?):\d+\/httpdns\/,reject
-URL-REGEX,^http:W[[0-9a-fA-F:]+l:\d+VhttpdnsV,reject
 HOST,dns.jd.com,reject
 HOST,dns.weibo.cn,reject
 HOST,dns.weixin.qq.com,reject
