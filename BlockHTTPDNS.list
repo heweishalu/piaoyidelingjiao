@@ -53,10 +53,6 @@ IP-CIDR,183.192.196.31/32,reject
 IP-CIDR,203.205.129.102/32,reject
 IP-CIDR,203.205.234.132/32,reject
 IP-CIDR,220.196.159.73/32,reject
-IP-CIDR6,2402:4e00:8030:1::17/128,reject
-IP-CIDR6,2402:4e00:1900:1700:0:9554:1ad9:c3a/128,reject
-IP-CIDR6,2408:8711:10:10::20/128,reject
-IP-CIDR6,2409:8702:4860:10::4d/128,reject
 DOMAIN,httpdns.kg.gq.com,reject
 DOMAIN,httpdns.bilivideo.com,reject
 DOMAIN,httpdns.browser.miui.com,reject
@@ -90,7 +86,6 @@ DOMAIN,httpdns.ocloud.heytapmobi.com,reject
 DOMAIN,httpdns.push.heytapmobi.com,reject
 DOMAIN,dns.jd.com,reject
 IP-CIDR,101.124.19.122/32,reject
-IP-CIDR6,2402:db40:5100:1011::5/128,reject
 IP-CIDR,103.224.222.208/32,reject
 IP-CIDR,119.29.29.98/32,reject
 IP-CIDR,119.29.29.99/32,reject
