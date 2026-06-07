@@ -1,0 +1,8 @@
+IP-CIDR,18.194.0.0/15,PROXY
+IP-CIDR,34.224.0.0/12,PROXY
+DOMAIN-SUFFIX,potatoeswhatsoever.com,REJECT
+DOMAIN-SUFFIX,quarrelsomewhatsobbing.com,REJECT
+DOMAIN-SUFFIX,somewhatsunduke.com,REJECT
+DOMAIN-SUFFIX,whatsisageing.cyou,REJECT
+DOMAIN-SUFFIX,whatsupp25.biz,REJECT
+DOMAIN-SUFFIX,wherebywhatsoeverduck.com,REJECT
