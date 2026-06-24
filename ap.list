@@ -6,3 +6,8 @@ DOMAIN-SUFFIX,somewhatsunduke.com,REJECT
 DOMAIN-SUFFIX,whatsisageing.cyou,REJECT
 DOMAIN-SUFFIX,whatsupp25.biz,REJECT
 DOMAIN-SUFFIX,wherebywhatsoeverduck.com,REJECT
+DOMAIN-SUFFIX,g.whatsapp.net
+DOMAIN-SUFFIX,static.whatsapp.net
+DOMAIN-SUFFIX,graph.whatsapp.com
+DOMAIN-SUFFIX,media-nrt6-1.cdn.whatsapp.net
+DOMAIN-SUFFIX,api.whatsapp.net
